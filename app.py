@@ -330,7 +330,7 @@ user_av_html = (
     '<div style="width:40px;height:40px;border-radius:50%;background:#1a0d38;'
     'border:2px solid #6d4aff;display:flex;align-items:center;'
     'justify-content:center;font-size:16px;font-weight:700;'
-    'color:#a78bfa;flex-shrink:0;">You</div>'
+    'color:#a78bfa;flex-shrink:0;">👤</div>'
 )
 
 import markdown as md_lib
