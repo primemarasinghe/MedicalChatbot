@@ -419,7 +419,7 @@ history_html = "".join(render_bubble(m["role"], m["content"]) for m in st.sessio
 st.markdown(history_html, unsafe_allow_html=True)
 
 # ── Input ─────────────────────────────────────────────────────────────────────
-user_input = st.chat_input("Describe your symptoms or ask a health question…")
+user_input = st.chat_input("Ask a Health question…")
 
 if "pending_chip" in st.session_state:
     user_input = st.session_state.pop("pending_chip")
